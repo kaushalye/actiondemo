@@ -1,9 +1,12 @@
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
+const add = require('./lib/util');
 
 //Define request response in root URL (/)
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+  const a = Number(req.query.a)
+  const b = Number(req.query.b)
+  res.send(a+' + '+ b +' = ' + add(a,b))
 })
 
 //Launch listening server on port 8080
