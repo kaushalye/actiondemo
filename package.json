@@ -1,0 +1,22 @@
+{
+  "name": "actiondemo",
+  "version": "1.0.0",
+  "description": "a demo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushalye/actiondemo.git"
+  },
+  "author": "Malinda Kapuruge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaushalye/actiondemo/issues"
+  },
+  "homepage": "https://github.com/kaushalye/actiondemo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
