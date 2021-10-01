@@ -5,8 +5,8 @@ const add = require('./lib/util');
 app.get('/', function (req, res) {
   const a = Number(req.query.a)
   const b = Number(req.query.b)
-  console.log("got request "+a+' + '+ b )
-  res.send(a+' + '+ b +' = ' + add(a,b))
+  console.log("got request " + a + ' + ' + b )
+  res.send(a+' + ' + b + ' = ' + add(a,b))
 })
 
 //Launch listening server on port 8080
