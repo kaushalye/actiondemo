@@ -1,5 +1,5 @@
-# actiondemo
-a demo app
+# Actiondemo
+An app to demo action scripts
 
 
 ## How to run locally
